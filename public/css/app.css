@@ -81,8 +81,5 @@ main .container .card .title {
   color: white;
   text-align: center;
   font-size: 1rem;
-}
-
-body {
-  background-color: pink;
+  padding: 0, 1rem;
 }
