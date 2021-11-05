@@ -4,6 +4,60 @@
   margin: 0;
 }
 
+.container {
+  max-width: 75rem;
+  margin: 0 auto;
+}
+
+.nav_top {
+  background-color: #0282f9;
+  height: 1.25rem;
+  color: white;
+  text-align: end;
+}
+
+.nav_top .trianlge {
+  font-size: 0.8rem;
+}
+
+.nav_bottom {
+  background-color: #ffffff;
+}
+
+.nav_bottom .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav_bottom .container ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav_bottom .container ul a {
+  display: inline-block;
+  padding: 3rem 0.7rem;
+  color: #4c4c46;
+  text-decoration: none;
+  margin: 0 0.3125rem;
+}
+
+.nav_bottom .container ul a.active {
+  color: #0282f9;
+  border-bottom: 0.125rem solid #0282f9;
+}
+
+.nav_bottom .container .search {
+  border-bottom: 1px solid #0282f9;
+  width: 8rem;
+  text-align: end;
+}
+
+.hero {
+  height: 25rem;
+}
+
 body {
   background-color: pink;
 }
