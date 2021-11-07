@@ -1,0 +1,49 @@
+.footer-top{
+    background-image: url("../images/footer-bg.jpg");
+    background-size: cover;
+    .container{
+
+        height: 25rem;
+        background-image: url("../images/dc-logo-bg.png");
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+    .cont-col{
+        display: flex;
+        .col{
+            color: white;
+            h3{
+                padding: 1rem  0;
+            }
+            margin-top: 1rem;
+           margin-right: 4rem;  
+        }
+    }
+    p{
+        color: white;
+        margin-top: 3.125rem;
+        width: 40%
+    };
+}
+
+.footer-bottom{
+    background-color: #303030;
+    height: 100px;
+    .container{
+        display: flex;
+        justify-content: space-between;
+
+    }
+    button{
+        color: white;
+        background-color: transparent;
+        border: 1px solid $blueDc;
+    }
+    .media{
+        display: flex;
+        
+        img{
+            margin-left: 2rem;
+        }
+    };
+}

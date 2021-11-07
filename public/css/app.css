@@ -9,6 +9,17 @@
   margin: 0 auto;
 }
 
+button {
+  background-color: #0282f9;
+  color: white;
+  padding: 10px 40px;
+  border-style: none;
+}
+
+li {
+  list-style: none;
+}
+
 .nav_top {
   background-color: #0282f9;
   height: 1.25rem;
@@ -60,8 +71,11 @@ main {
 main .container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
   gap: 2rem;
+}
+main .container button {
+  margin: auto;
 }
 main .container .card {
   width: calc(16.6666666667% - 2rem);
@@ -82,4 +96,68 @@ main .container .card .title {
   text-align: center;
   font-size: 1rem;
   padding: 0, 1rem;
+}
+main .icons {
+  padding: 3rem;
+  color: white;
+  margin-top: 1.25rem;
+  background-color: #0282f9;
+}
+main .icons .icon {
+  display: flex;
+  align-items: center;
+  padding: 0 0.625rem;
+}
+main .icons .icon img {
+  width: 1.25rem;
+}
+main .icons .icon p {
+  margin-left: 0.5rem;
+}
+
+.footer-top {
+  background-image: url("../images/footer-bg.jpg");
+  background-size: cover;
+}
+.footer-top .container {
+  height: 25rem;
+  background-image: url("../images/dc-logo-bg.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.footer-top .cont-col {
+  display: flex;
+}
+.footer-top .cont-col .col {
+  color: white;
+  margin-top: 1rem;
+  margin-right: 4rem;
+}
+.footer-top .cont-col .col h3 {
+  padding: 1rem 0;
+}
+.footer-top p {
+  color: white;
+  margin-top: 3.125rem;
+  width: 40%;
+}
+
+.footer-bottom {
+  background-color: #303030;
+  height: 100px;
+}
+.footer-bottom .container {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-bottom button {
+  color: white;
+  background-color: transparent;
+  border: 1px solid #0282f9;
+}
+.footer-bottom .media {
+  display: flex;
+}
+.footer-bottom .media img {
+  margin-left: 2rem;
 }

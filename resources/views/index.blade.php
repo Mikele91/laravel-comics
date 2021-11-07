@@ -1,9 +1,9 @@
 @extends('layout.base')
 
 @section('pageContent')
-
+{{-- @dd($data["icons"]) --}}
 <div class="container">
-    @foreach ($data as $item)
+    @foreach ($data["comics"] as $item)
     
     <div class="card">
         <img src="{{$item["thumb"]}}" alt="">
@@ -11,9 +11,23 @@
     </div>
     @endforeach
     <button>
-        ciao
+        Load more
     </button>
     
 </div>
+<section class="icons">
+    
+    <div class="container">
+        @foreach ($data["icons"] as $item)
+        <div class="icon">
+            <img src="{{$item["url"]}}" alt="{{$item["text"]}}"">
+            <p>{{$item["text"]}}</p>
+        </div>
+        
+        @endforeach
+
+    </div>
+
+</section>
 
 @endsection

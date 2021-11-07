@@ -2,3 +2,15 @@
     max-width: 75rem;
     margin: 0 auto;
 }
+button{
+    background-color: $blueDc;
+    color: white;
+    padding: 10px 40px;
+    // border-width: none;
+    border-style: none;
+    // border-color:none;
+    // border-image: none;
+}
+li{
+    list-style: none;
+}
